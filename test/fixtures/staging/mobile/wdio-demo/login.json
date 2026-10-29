@@ -1,0 +1,10 @@
+{
+  "validUserDefault": {
+    "email": "test@webdriver.io",
+    "password": "SuperSecretPassword"
+  },
+  "validUserCustom": {
+    "email": "testcustom@webdriver.io",
+    "password": "SuperSecretPasswordCustom"
+  }
+}

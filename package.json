@@ -1,0 +1,28 @@
+{
+  "name": "qa-case",
+  "type": "module",
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "@types/node": "^26.6.2",
+    "@wdio/appium-service": "^9.31.9",
+    "@wdio/cli": "^9.31.9",
+    "@wdio/globals": "^9.31.3",
+    "@wdio/local-runner": "^9.31.9",
+    "@wdio/mocha-framework": "^9.31.9",
+    "@wdio/spec-reporter": "^9.31.2",
+    "appium": "^3.8.0",
+    "appium-uiautomator2-driver": "^8.7.0",
+    "expect-webdriverio": "^6.0.10"
+  },
+  "scripts": {
+    "test:mobile-wdiodemo-login": "npx wdio run ./config/wdio.mobile.conf.ts --spec ./test/specs/mobile/wdio-demo/login.spec.ts",
+    "test:web-saucedemo": "npx wdio run ./config/wdio.web.conf.ts --suite saucedemo",
+    "test:web-saucedemo-login": "npx wdio run ./config/wdio.web.conf.ts --spec ./test/specs/web/sauce-demo/auth/login.spec.ts",
+    "test:web-saucedemo-inventory": "npx wdio run ./config/wdio.web.conf.ts --spec ./test/specs/web/sauce-demo/product/inventory.spec.ts",
+    "test:web-saucedemo-inventory-item": "npx wdio run ./config/wdio.web.conf.ts --spec ./test/specs/web/sauce-demo/product/inventory-item.spec.ts",
+    "test:web-saucedemo-cart": "npx wdio run ./config/wdio.web.conf.ts --spec ./test/specs/web/sauce-demo/checkout/cart.spec.ts",
+    "test:web-saucedemo-checkout-step-one": "npx wdio run ./config/wdio.web.conf.ts --spec ./test/specs/web/sauce-demo/checkout/checkout-step-one.spec.ts",
+    "test:web-saucedemo-checkout-step-two": "npx wdio run ./config/wdio.web.conf.ts --spec ./test/specs/web/sauce-demo/checkout/checkout-step-two.spec.ts",
+    "test:web-saucedemo-checkout-complete": "npx wdio run ./config/wdio.web.conf.ts --spec ./test/specs/web/sauce-demo/checkout/checkout-complete.spec.ts"
+  }
+}

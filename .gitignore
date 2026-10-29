@@ -1,0 +1,4 @@
+*.env*
+custom-config.json
+node_modules
+apps

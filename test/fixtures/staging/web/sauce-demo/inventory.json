@@ -1,0 +1,8 @@
+{
+    "sortProduct": {
+        "sortByNameAsc": "az",
+        "sortByNameDesc": "za",
+        "sortByPriceAsc": "lohi",
+        "sortByPriceDesc": "hilo"
+    }
+}
